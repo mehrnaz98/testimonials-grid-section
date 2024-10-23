@@ -587,6 +587,11 @@ video {
   background-color: rgb(25 33 46 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#ECF2F8\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(236 242 248 / var(--tw-bg-opacity));
+}
+
 .transition {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
