@@ -16,9 +16,6 @@ html {
   grid-template-rows: repeat(2, auto);
   column-gap: 2rem;
   row-gap: 1.5em;
-  max-width: 74rem;
-  margin-top: 10rem;
-  margin-bottom: 10rem;
 }
 
 .card-1 {
