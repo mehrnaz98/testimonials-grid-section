@@ -3,8 +3,9 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 18rem);
   gap: 1.5rem;
+  max-width: 70rem;
 }
 
 .card-1 {
@@ -594,8 +595,20 @@ video {
   display: grid;
 }
 
+.min-h-screen {
+  min-height: 100vh;
+}
+
 .flex-col {
   flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .rounded-lg {
