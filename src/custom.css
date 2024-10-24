@@ -46,6 +46,37 @@ html {
   grid-row: 1/-1;
 }
 
+@media (max-width: 900px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4,
+  .card-5 {
+    grid-column: auto;
+    grid-row: auto;
+    max-width: 27rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card-1,
+  .card-2,
+  .card-3,
+  .card-4,
+  .card-5 {
+    grid-column: auto;
+    grid-row: auto;
+    max-width: 20rem;
+  }
+}
+
 .card-1,
 .card-2,
 .card-3,
@@ -62,7 +93,7 @@ html {
   border-radius: 100%;
   max-width: 2rem;
   max-height: 2rem;
-  border-width: 0.1rem;
+  border-width: 0.15rem;
 }
 
 .card-header {
