@@ -14,7 +14,8 @@ html {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, auto);
-  gap: 1.5rem;
+  column-gap: 2rem;
+  row-gap: 1.5em;
   max-width: 74rem;
   margin-top: 10rem;
   margin-bottom: 10rem;
@@ -57,7 +58,7 @@ html {
   padding-bottom: 1.5rem;
 }
 
-img {
+.profile-pic {
   border-radius: 100%;
   max-width: 2rem;
   max-height: 2rem;
@@ -74,10 +75,12 @@ img {
 .name-status h3 {
   font-size: 0.8rem;
   font-weight: 600;
+  opacity: 90%;
 }
 
 .name-status p {
   font-size: 0.7rem;
+  opacity: 70%;
 }
 
 .card-title {
