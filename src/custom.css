@@ -8,6 +8,20 @@ html {
   font-size: 100%; /* 16px */
 }
 
+/* fonts */
+
+.barlow-semi-condensed-medium {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.barlow-semi-condensed-semibold {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
 /* grid container for the cards */
 
 .grid-container {
@@ -101,8 +115,7 @@ html {
 }
 
 .name-status h3 {
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 0.85rem;
   opacity: 90%;
 }
 
