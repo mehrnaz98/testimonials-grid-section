@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +9,20 @@
 html {
   font-size: 100%;
   /* 16px */
+}
+
+/* fonts */
+
+.barlow-semi-condensed-medium {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.barlow-semi-condensed-semibold {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
 }
 
 /* grid container for the cards */
@@ -105,8 +121,7 @@ html {
 }
 
 .name-status h3 {
-  font-size: 0.8rem;
-  font-weight: 600;
+  font-size: 0.85rem;
   opacity: 90%;
 }
 
@@ -128,7 +143,7 @@ html {
   padding-top: 1.2rem;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -182,7 +197,7 @@ html {
   --tw-contain-style:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -682,139 +697,109 @@ video {
   display: none;
 }
 
-.absolute {
+.absolute{
   position: absolute;
 }
 
-.relative {
+.relative{
   position: relative;
 }
 
-.right-20 {
+.right-20{
   right: 5rem;
 }
 
-.top-0 {
+.top-0{
   top: 0px;
 }
 
-.-z-0 {
+.-z-0{
   z-index: 0;
 }
 
-.z-10 {
+.z-10{
   z-index: 10;
 }
 
-.my-\[10rem\] {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-}
-
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-}
-
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.my-10 {
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
-}
-
-.my-16 {
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-}
-
-.my-14 {
+.my-14{
   margin-top: 3.5rem;
   margin-bottom: 3.5rem;
 }
 
-.flex {
+.flex{
   display: flex;
 }
 
-.grid {
+.grid{
   display: grid;
 }
 
-.min-h-screen {
+.min-h-screen{
   min-height: 100vh;
 }
 
-.max-w-\[74rem\] {
+.max-w-\[74rem\]{
   max-width: 74rem;
 }
 
-.flex-col {
+.flex-col{
   flex-direction: column;
 }
 
-.items-center {
+.items-center{
   align-items: center;
 }
 
-.justify-center {
+.justify-center{
   justify-content: center;
 }
 
-.border-\[\#66538F\] {
+.border-\[\#66538F\]{
   --tw-border-opacity: 1;
   border-color: rgb(102 83 143 / var(--tw-border-opacity));
 }
 
-.border-\[\#A775F1\] {
+.border-\[\#A775F1\]{
   --tw-border-opacity: 1;
   border-color: rgb(167 117 241 / var(--tw-border-opacity));
 }
 
-.border-\[\#CFCFCF\] {
+.border-\[\#CFCFCF\]{
   --tw-border-opacity: 1;
   border-color: rgb(207 207 207 / var(--tw-border-opacity));
 }
 
-.bg-\[\#19212E\] {
+.bg-\[\#19212E\]{
   --tw-bg-opacity: 1;
   background-color: rgb(25 33 46 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#48556A\] {
+.bg-\[\#48556A\]{
   --tw-bg-opacity: 1;
   background-color: rgb(72 85 106 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#7541C8\] {
+.bg-\[\#7541C8\]{
   --tw-bg-opacity: 1;
   background-color: rgb(117 65 200 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#ECF2F8\] {
+.bg-\[\#ECF2F8\]{
   --tw-bg-opacity: 1;
   background-color: rgb(236 242 248 / var(--tw-bg-opacity));
 }
 
-.bg-white {
+.bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.text-white {
+.text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.transition {
+.transition{
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
@@ -822,8 +807,8 @@ video {
   transition-duration: 150ms;
 }
 
-@media (min-width: 640px) {
-  .sm\:my-\[10rem\] {
+@media (min-width: 640px){
+  .sm\:my-\[10rem\]{
     margin-top: 10rem;
     margin-bottom: 10rem;
   }
