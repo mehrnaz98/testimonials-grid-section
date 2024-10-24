@@ -3,9 +3,11 @@
 .grid-container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 18rem);
+  grid-template-rows: repeat(2, auto);
   gap: 1.5rem;
-  max-width: 70rem;
+  max-width: 74rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
 .card-1 {
@@ -31,6 +33,54 @@
 .card-5 {
   grid-column: 4;
   grid-row: 1/-1;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5 {
+  border-radius: 0.6rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+img {
+  border-radius: 100%;
+  max-width: 2rem;
+  max-height: 2rem;
+  border-width: 0.1rem;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: row;
+  gap: 0.9rem;
+  align-items: center;
+}
+
+.name-status h3 {
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.name-status p {
+  font-size: 0.7rem;
+}
+
+.card-title {
+  font-size: 1.17rem;
+  font-weight: 600;
+  line-height: 1.4rem;
+  padding-top: 1rem;
+}
+
+.testimonial {
+  font-size: 0.8125rem;
+  opacity: 50%;
+  padding-top: 1rem;
 }
 
 *, ::before, ::after {
@@ -611,8 +661,9 @@ video {
   justify-content: center;
 }
 
-.rounded-lg {
-  border-radius: 0.5rem;
+.border-pink-500 {
+  --tw-border-opacity: 1;
+  border-color: rgb(236 72 153 / var(--tw-border-opacity));
 }
 
 .bg-\[\#19212E\] {
