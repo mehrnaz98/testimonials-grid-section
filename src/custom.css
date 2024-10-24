@@ -6,6 +6,8 @@
   grid-template-rows: repeat(2, auto);
   gap: 1.5rem;
   max-width: 74rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
 }
 
 .card-1 {
