@@ -46,3 +46,10 @@
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
+
+img {
+  border-radius: 100%;
+  max-width: 2rem;
+  max-height: 2rem;
+  border-width: 0.1rem;
+}
