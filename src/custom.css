@@ -63,3 +63,22 @@ img {
 
 .name-status h3 {
   font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.name-status p {
+  font-size: 0.7rem;
+}
+
+.card-title {
+  font-size: 1.17rem;
+  font-weight: 600;
+  line-height: 1.4rem;
+  padding-top: 1rem;
+}
+
+.testimonial {
+  font-size: 0.8125rem;
+  opacity: 50%;
+  padding-top: 1rem;
+}
