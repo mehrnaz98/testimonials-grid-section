@@ -57,6 +57,14 @@ html {
   grid-row: 1/-1;
 }
 
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5 {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
 @media (max-width: 900px) {
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
