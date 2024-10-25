@@ -61,6 +61,14 @@ html {
   grid-row: 1/-1;
 }
 
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5 {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
 @media (max-width: 900px) {
   .grid-container {
     grid-template-columns: repeat(2, 1fr);
@@ -90,7 +98,7 @@ html {
   .card-5 {
     grid-column: auto;
     grid-row: auto;
-    max-width: 20rem;
+    max-width: 21rem;
   }
 }
 
@@ -705,8 +713,8 @@ video {
   position: relative;
 }
 
-.right-20{
-  right: 5rem;
+.right-6{
+  right: 1.5rem;
 }
 
 .top-0{
@@ -736,14 +744,6 @@ video {
 
 .min-h-screen{
   min-height: 100vh;
-}
-
-.max-w-\[74rem\]{
-  max-width: 74rem;
-}
-
-.max-w-\[73rem\]{
-  max-width: 73rem;
 }
 
 .max-w-\[72rem\]{
@@ -819,6 +819,11 @@ video {
   color: rgb(76 78 97 / var(--tw-text-opacity));
 }
 
+.text-\[\#535C65\]{
+  --tw-text-opacity: 1;
+  color: rgb(83 92 101 / var(--tw-text-opacity));
+}
+
 .text-\[\#7541C8\]{
   --tw-text-opacity: 1;
   color: rgb(117 65 200 / var(--tw-text-opacity));
@@ -827,11 +832,6 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\#535C65\]{
-  --tw-text-opacity: 1;
-  color: rgb(83 92 101 / var(--tw-text-opacity));
 }
 
 .transition{
@@ -847,9 +847,16 @@ video {
 }
 
 @media (min-width: 640px){
-  .sm\:my-\[10rem\]{
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+  .sm\:right-20{
+    right: 5rem;
+  }
+
+  .sm\:mb-\[7rem\]{
+    margin-bottom: 7rem;
+  }
+
+  .sm\:mt-\[9rem\]{
+    margin-top: 9rem;
   }
 
   .sm\:text-xs{
