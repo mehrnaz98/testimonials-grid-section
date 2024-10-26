@@ -144,3 +144,13 @@ html {
   opacity: 50%;
   padding-top: 1.2rem;
 }
+
+/* pseudo-classes */
+
+.testimonial::before {
+  content: "“";
+}
+
+.testimonial::after {
+  content: "”";
+}
