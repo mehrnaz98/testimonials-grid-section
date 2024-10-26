@@ -151,6 +151,16 @@ html {
   padding-top: 1.2rem;
 }
 
+/* pseudo-classes */
+
+.testimonial::before {
+  content: "“";
+}
+
+.testimonial::after {
+  content: "”";
+}
+
 *, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
